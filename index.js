@@ -1,8 +1,8 @@
 const express = require('express')
 const app = express()
 const PORT = 4000
-let bodyParser = require('body-parser')
-let mysql = require('mysql')
+// let bodyParser = require('body-parser')
+// let mysql = require('mysql')
 
 // app.use(bodyParser.json())
 // app.use(bodyParser.urlencoded({extended: true}))
