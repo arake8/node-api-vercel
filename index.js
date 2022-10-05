@@ -19,3 +19,11 @@ app.get('/', (req, res) =>{
         published_on: 'https://milerdev.dev'
     })
 })
+
+// connection to mysql database
+
+// app.get('/about', (req, res) => {
+//     res.send('This is my about route')git aa
+// })
+
+module.exports = app;
