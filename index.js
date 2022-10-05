@@ -4,8 +4,8 @@ const PORT = 4000
 let bodyParser = require('body-parser')
 let mysql = require('mysql')
 
-app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({extended: true}))
+// app.use(bodyParser.json())
+// app.use(bodyParser.urlencoded({extended: true}))
 
 app.listen(PORT, ()=>{
     console.log(`API Listening on PORT ${PORT}`)
